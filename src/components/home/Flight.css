@@ -1,0 +1,15 @@
+
+
+.button1{
+    padding: 7px;
+    border-radius: 5px;
+}
+
+.text_hover_block:active {
+    outline: none;
+  }
+  
+  .searchButton:hover {
+    background-color:"blue";
+  }
+  
