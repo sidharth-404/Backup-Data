@@ -1,0 +1,16 @@
+{
+  "albums": [
+    {
+      "id": 101,
+      "title": "anu",
+      "artist": "anu@gmail.com",
+      "price": 2500
+    },
+    {
+      "id": "1234",
+      "title": "shhsh",
+      "artist": "jhshsu",
+      "price": "2000"
+    }
+  ]
+}

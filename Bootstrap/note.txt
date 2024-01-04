@@ -1,0 +1,6 @@
+Bootstrap
+---------
+
+* Responsive Design
+* mobile first
+* grid system

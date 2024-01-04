@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+  </head>
+  <body>
+    <div class="container">
+        <form class="row g-3" >
+            <div class="col-md-6">
+              <label for="inputemployeeid" class="form-label">Employee Id</label>
+              <input type="text" class="form-control" id="employee-id" placeholder="Enter Employee id">
+            </div>
+            <div class="col-md-6">
+              <label for="employee name" class="form-label">Employee Name</label>
+              <input type="text" class="form-control" id="emp-name" placeholder="E nter Employee Name">
+            </div>  
+            <div class="col-md-6">
+              <label for="mail id" class="form-label">Mail Id</label>
+              <input type="text" class="form-control" id="mail-id" placeholder="example@gmail.com">
+            </div>
+            <div class="col-md-6">
+                <label for="mail id" class="form-label">Date of birth</label>
+                <input type="date" class="form-control" id="date">
+              </div>
+          
+            <div class="col-12">
+              <button type="button" class="btn btn-primary" onclick="z()">Submit</button>
+            </div>
+            <p id="l1"></p><br>
+            <p id="l2"></p><br>
+            <p id="l3"></p><br>
+            <p id="l4"></p><br>
+            
+
+          </form>
+
+        </div>
+    <!--<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous">-->
+     
+  </body>
+  <script>
+    let z=function()
+    {
+    
+      let a=document.getElementById("employee-id").value;
+      let b=document.getElementById("emp-name").value;
+     let c=document.getElementById("mail-id").value;
+     let d= document.getElementById("date").value;
+     document.getElementById("l1").innerHTML=a;
+     document.getElementById("l2").innerHTML=b;
+     document.getElementById("l3").innerHTML=c;
+     document.getElementById("l").innerHTML=d;
+
+
+
+     console.log(b);
+
+    
+ }
+    </script>
+</html>
