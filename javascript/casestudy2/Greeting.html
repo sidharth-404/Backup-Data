@@ -1,0 +1,18 @@
+<html>
+    <head>
+        <title></title>
+    </head>
+    <body>
+        <input type="text" id="text1"><br>
+        <input type="text" id="text2"><br>
+        <h3 id="result"></h3><br>
+        <button onclick="test()">click</button>
+    </body>
+    <script>
+        function test(){
+        let a=document.getElementById("text1").value;
+        let b=document.getElementById("text2").value;
+        document.getElementById("result").innerHTML="Hello"+" "+a+" "+b;
+        }
+    </script>
+</html>

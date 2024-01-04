@@ -1,0 +1,44 @@
+JavaScript
+----------------
+scripting language
+programming language
+we can create
+web app
+build andriod and ios application.
+react and angular
+machine learning.
+
+
+
+javascript basic building blocks
+--------------------------------
+- if-else
+- switch 
+- condyional operator(?:)
+
+looping
+----------
+-while
+- do while
+- for 
+
+Equals in JavaScript
+-----------------------
+=   - Assign
+==   - compares values irrespective type.
+===  -  compare values and type.
+
+Arrays
+------
+let arr=[10,20,30,'ramesh'];
+
+
+DOM(Document Object Model) 
+---------------------------------
+
+   
+promise  = resolve - Pending - fulfilled -  rejected
+         =  reject
+-------------
+Ajax
+-----------

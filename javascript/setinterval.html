@@ -1,0 +1,15 @@
+<html>
+    <head>
+        <title></title>
+    </head>
+<body>
+    <p id="time"></p>
+    <script>
+    function updateDate(){
+    let date =new Date();
+    document.getElementById("time").innerHTML=date;
+    }
+        setInterval(()=>updateDate(),1000);
+         </script>
+</body>
+</html>

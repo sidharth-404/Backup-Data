@@ -1,0 +1,30 @@
+*
+{
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+    box-sizing:border-box;
+}
+#main
+{
+    margin:0px 40px 0px 40px
+}
+#para1
+{
+    margin:40px 0px 40px 0px;
+    color:white;
+    background-color: black;
+    padding:25px 25px 25px 25px;
+    text-align: center;
+    font-size:1.5em;
+    border-radius:20px;
+}
+#btn
+{
+
+    border: 0px;
+    background-color:rgb(49,79,79);
+    font-size:1.5em;
+    border-radius: 5px;
+    color:white;
+    cursor: pointer;
+}

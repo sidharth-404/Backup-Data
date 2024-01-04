@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<head>
+    <title>
+
+    </title>
+    <style>
+        .main{
+           margin: 20px 20px 20px 20px;
+          border-style: solid;
+          border-color: rgb(158, 212, 77);
+          border-width:10px;
+            width:400px;
+            margin-left:400px;
+
+        }
+        .form
+        {
+            margin-left:100px;
+        }
+        .submit { 
+  border: none; 
+  outline: none; 
+  padding: 10px; 
+  background-color: rgb(45, 46, 45); 
+  color: rgb(255, 248, 220); 
+  margin: 10px; 
+  cursor: pointer; 
+} 
+ 
+#err-email { 
+  visibility: hidden; 
+  color: rgb(255, 0, 0); 
+} 
+ 
+#err-name { 
+  visibility: hidden; 
+  color: rgb(255, 0, 0); 
+} 
+#err-purpose { 
+  visibility: hidden; 
+  color: rgb(255, 0, 0); 
+} 
+#err-remark { 
+  visibility:hidden;
+  color: rgb(255, 0, 0); 
+} 
+ 
+    </style>
+    </head>
+    <body>
+        <div class="main">
+            <div class="form">
+            <h1>Validation</h1>
+        <input id='email' type="text" placeholder="Email Id"> 
+        <p id="err-email">Can't be Empty</p> 
+        <input id='name' type="text" placeholder="Name"> 
+        <p id="err-name">Can't be Empty</p> 
+        <input id='purpose' type="text" placeholder="Purpose"> 
+        <p id="err-purpose">Can't be Empty</p> 
+        <input id='remark' type="text" placeholder="Remark"> 
+        <p id="err-remark">Can't be Empty</p> 
+        <button onclick="submitForm()" class="submit">Submit</button> 
+        </div>
+        </div>
+    </body>
+    <script>
+
+        function submitForm()
+        {
+            let email=document.getElementById('email').value;
+            let name=document.getElementById('name').value;
+            let purpose=document.getElementById('purpose').value;
+            let remark=document.getElementById('remark').value;
+            if(email=="")
+            {
+                document.getElementById('err-email').style.visibility='visible';
+            }
+            else
+            {
+                document.getElementById('err-email').style.visibility='hidden'; 
+            }
+            if(name=="")
+            {
+                document.getElementById('err-name').style.visibility='visible';
+            }
+            if(purpose=="")
+            {
+                document.getElementById('err-purpose').style.visibility='visible';
+            }
+            if(remark=="")
+            {
+                document.getElementById('err-remark').style.visibility='visible';
+            }
+
+        }
+    </script>
+</html>

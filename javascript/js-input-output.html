@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+
+        </title>
+    </head>
+    <body>
+
+        <input type="text" name="username" id="username">
+        <button onClick=readName()>Insert</button>
+    </body>
+    <script>
+        const readName=function()
+        {
+            let name=document.getElementById("username").value;
+            document.write(`<h1>Hello ${name}</h1>`);
+        }
+    </script>
+</html>

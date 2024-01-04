@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+
+<head>
+    <title>
+    </title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="main">
+        <p id="para1">
+            This is a problem where we will perform how to dark mode in a website using HTML.CSS and JavaScript.
+            we will write a piece of code with the help of whic we will be able to switch to dark mode.we will perform
+            this practical right here.let do it
+        </p>
+        <button type="button" id="btn">Switch to Dark mode</button>
+    </div>
+
+</body>
+<script>
+    var btn = document.getElementById("btn");
+
+    var para1 = document.getElementById("para1");
+
+    var isDarkMode = false;
+
+
+
+
+    btn.addEventListener("click", function () {
+
+        if (isDarkMode) {
+
+            // Switch to dark Mode
+
+            document.body.style.backgroundColor = "white";
+
+            para1.style.backgroundColor = "black";
+
+            para1.style.color = "white";
+
+            btn.style.backgroundColor = "rgb(47,79,79)";
+
+            btn.style.color = "white";
+
+            btn.textContent = "Switch to Dark Mode";
+
+            isDarkMode = false;
+
+        } else {
+
+            document.body.style.backgroundColor = "black";
+
+            para1.style.backgroundColor = "white";
+
+            para1.style.color = "black";
+
+            btn.style.backgroundColor = "#dcdcdc";
+
+            btn.style.color = "black";
+
+            btn.textContent = "Switch to Light Mode";
+
+            isDarkMode = true;
+
+        }
+
+    });
+</script>
+
+</html>
